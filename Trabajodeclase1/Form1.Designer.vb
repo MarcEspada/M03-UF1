@@ -28,6 +28,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.RestaBtn = New System.Windows.Forms.Button()
+        Me.MultiplicaBtn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'SumaBtn
@@ -73,18 +74,28 @@ Partial Class Form1
         '
         'RestaBtn
         '
-        Me.RestaBtn.Location = New System.Drawing.Point(184, 99)
+        Me.RestaBtn.Location = New System.Drawing.Point(130, 99)
         Me.RestaBtn.Name = "RestaBtn"
         Me.RestaBtn.Size = New System.Drawing.Size(75, 23)
         Me.RestaBtn.TabIndex = 5
         Me.RestaBtn.Text = "Resta"
         Me.RestaBtn.UseVisualStyleBackColor = True
         '
+        'MultiplicaBtn
+        '
+        Me.MultiplicaBtn.Location = New System.Drawing.Point(25, 128)
+        Me.MultiplicaBtn.Name = "MultiplicaBtn"
+        Me.MultiplicaBtn.Size = New System.Drawing.Size(75, 23)
+        Me.MultiplicaBtn.TabIndex = 6
+        Me.MultiplicaBtn.Text = "Multiplica"
+        Me.MultiplicaBtn.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(852, 262)
+        Me.Controls.Add(Me.MultiplicaBtn)
         Me.Controls.Add(Me.RestaBtn)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -103,4 +114,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents RestaBtn As Button
+    Friend WithEvents MultiplicaBtn As Button
 End Class
