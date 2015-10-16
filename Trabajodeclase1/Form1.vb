@@ -22,6 +22,7 @@
 
         resultadoresta = op1 - op2
 
+
         Label1.Text = resultadoresta.ToString()
     End Sub
 
